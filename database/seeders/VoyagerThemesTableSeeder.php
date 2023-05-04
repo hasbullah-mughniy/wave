@@ -24,10 +24,20 @@ class VoyagerThemesTableSeeder extends Seeder
                 'id' => 1,
                 'name' => 'Tailwind Theme',
                 'folder' => 'tailwind',
-                'active' => 1,
+                'active' => 0,
                 'version' => '1.0',
                 'created_at' => '2020-08-23 08:06:45',
                 'updated_at' => '2020-08-23 08:06:45',
+            ),
+            1 =>
+            array (
+                'id' => 2,
+                'name' => 'Triptasoft Theme',
+                'folder' => 'triptasoft',
+                'active' => 1,
+                'version' => '1.0',
+                'created_at' => '2023-05-04 08:06:45',
+                'updated_at' => '2023-05-04 08:06:45',
             )
         ));
 
