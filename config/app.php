@@ -199,6 +199,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Recca0120\Terminal\TerminalServiceProvider::class,
+
     ],
 
     /*
