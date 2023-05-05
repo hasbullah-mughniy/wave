@@ -33,6 +33,15 @@
                             <div @click="open=true; url='/admin'; active='admin';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'admin' && open, 'bg-wave-500': active != 'admin' }">
                                 Admin
                             </div>
+                            <div @click="open=true; url='/terminal'; active='terminal';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'terminal' && open, 'bg-wave-500': active != 'terminal' }">
+                                Terminal
+                            </div>
+                            <div @click="open=true; url='/dibi'; active='dibi';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'dibi' && open, 'bg-wave-500': active != 'dibi' }">
+                                Database
+                            </div>
+                            <div @click="open=true; url='/log-viewer'; active='dibi';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'log-viewer' && open, 'bg-wave-500': active != 'log-viewer' }">
+                                Log Viewer
+                            </div>
                         @endif
                     </div>
                     <div x-show="open" @click="open=false" class="flex flex-col items-center justify-center h-full text-white border-l border-purple-500 opacity-75 cursor-pointer w-14 hover:bg-black hover:bg-opacity-10 hover:opacity-100">

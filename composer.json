@@ -8,10 +8,11 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.1",
         "ext-exif": "*",
         "ext-gd": "*",
         "ext-redis": "*",
+        "cuonggt/laravel-dibi": "^0.1.1",
         "devdojo/app": "0.11.0",
         "devdojo/themes": "0.0.7",
         "guzzlehttp/guzzle": "^7.2",
@@ -21,6 +22,7 @@
         "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.7",
         "livewire/livewire": "^2.4",
+        "opcodesio/log-viewer": "^2.4",
         "tcg/voyager": "1.5.x-dev",
         "tymon/jwt-auth": "@dev"
     },
