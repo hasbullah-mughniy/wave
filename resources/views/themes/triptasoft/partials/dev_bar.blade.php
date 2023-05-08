@@ -39,7 +39,7 @@
                             <div @click="open=true; url='/dibi'; active='dibi';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'dibi' && open, 'bg-wave-500': active != 'dibi' }">
                                 Database
                             </div>
-                            <div @click="open=true; url='/log-viewer'; active='dibi';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'log-viewer' && open, 'bg-wave-500': active != 'log-viewer' }">
+                            <div @click="open=true; url='/log-viewer'; active='log-viewer';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'log-viewer' && open, 'bg-wave-500': active != 'log-viewer' }">
                                 Log Viewer
                             </div>
                         @endif
