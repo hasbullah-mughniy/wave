@@ -42,6 +42,9 @@
                             <div @click="open=true; url='/log-viewer'; active='log-viewer';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == 'log-viewer' && open, 'bg-wave-500': active != 'log-viewer' }">
                                 Log Viewer
                             </div>
+                            <div @click="open=true; url='/api/documentation'; active='/api/documentation';" class="flex items-center justify-center h-full text-xs leading-none text-blue-100 border-l border-blue-500 cursor-pointer hover:bg-wave-600" :class="{ 'px-3': !open, 'px-5': open, 'bg-wave-600': active == '/api/documentation' && open, 'bg-wave-500': active != '/api/documentation' }">
+                                API
+                            </div>
                         @endif
                     </div>
                     <div x-show="open" @click="open=false" class="flex flex-col items-center justify-center h-full text-white border-l border-purple-500 opacity-75 cursor-pointer w-14 hover:bg-black hover:bg-opacity-10 hover:opacity-100">
