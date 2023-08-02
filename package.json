@@ -1,5 +1,8 @@
 {
   "engines": {
     "node": "17.x"
+  },
+  "dependencies": {
+    "duitku": "^0.0.7"
   }
 }
